@@ -25,14 +25,18 @@
         return "";
     }
 
-    std::string compare_numbers(int num1, int num2) {
-        if (num1 < num2) {
+    std::string compare_numbers(int num1, int num2) 
+    {
+        if (num1 < num2) 
+        {
             return number_to_words(num1) + " меньше чем " + number_to_words(num2);
         }
-        else if (num1 > num2) {
+        else if (num1 > num2) 
+        {
             return number_to_words(num1) + " больше чем " + number_to_words(num2);
         }
-        else {
+        else 
+        {
             return number_to_words(num1) + " равно " + number_to_words(num2);
         }
     }
